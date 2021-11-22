@@ -2,7 +2,7 @@
 #include "BSTree.h"
 using namespace std;
 
-static int arr[] = { 5,4,1, 3,2,6,7,9,8 };
+static int arr[] = {1,2,3,4};
 #define TBL_SIZE(a) ( (sizeof(a)) / (sizeof(a[0])) )
 
 int main()

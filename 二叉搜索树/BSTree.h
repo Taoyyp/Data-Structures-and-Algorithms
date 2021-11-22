@@ -1,8 +1,11 @@
+
+
 #ifndef _BINARY_SEARCH_TREE_HPP_
 #define _BINARY_SEARCH_TREE_HPP_
 
 #include <iomanip>
 #include <iostream>
+#include <queue>
 using namespace std;
 
 template <class T>
@@ -32,6 +35,8 @@ public:
     void inOrder();
     // 后序遍历"二叉树"
     void postOrder();
+    //层次遍历
+    void levelOrder();
 
     // (递归实现)查找"二叉树"中键值为key的节点
     BSTNode<T>* search(T key);
@@ -66,6 +71,8 @@ private:
     void inOrder(BSTNode<T>* tree) const;
     // 后序遍历"二叉树"
     void postOrder(BSTNode<T>* tree) const;
+    //层次遍历
+    void levelOrder(BSTNode<T>* tree) const;
 
     // (递归实现)查找"二叉树x"中键值为key的节点
     BSTNode<T>* search(BSTNode<T>* x, T key) const;
@@ -166,6 +173,40 @@ void BSTree<T>::postOrder()
 {
     postOrder(mRoot);
 }
+
+//层次遍历
+template <class T>
+void BSTree<T>::levelOrder(BSTNode<T>* tree) const
+{
+    if (tree == nullptr)
+        return;
+
+    queue<BSTNode<T>*> que;//构造一个树结点指针的队列
+    que.push(tree);
+
+    while (!que.empty()) {
+        BSTNode<T>* q = que.front();
+        cout << q->value << " ";
+        que.pop();
+
+        if (q->left != nullptr)//que.front()拿到最前结点 
+        {
+            que.push(q->left);
+        }
+
+
+        if (q->right != nullptr) {
+            que.push(q->right);
+        }
+    }
+    cout << endl;
+}
+template <class T>
+void BSTree<T>::levelOrder()
+{
+    levelOrder(mRoot);
+}
+
 
 /*
  * (递归实现)查找"二叉树x"中键值为key的节点
