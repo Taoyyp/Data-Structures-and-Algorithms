@@ -1,20 +1,21 @@
-﻿#include <iostream>
-#include "BSTree.h"
+﻿/**
+ * C++ 语言: 伸展树
+ *
+ * @author skywang
+ * @date 2014/02/03
+ */
+
+#include <iostream>
+#include "SplayTree.h"
 using namespace std;
-/*
-    二叉搜索树单调性：中序遍历序列必然单调非降
-    充要条件
 
-*/
-
-static int arr[] = {1,2,3,4};
+static int arr[] = { 10,50,40,30,20,60 };
 #define TBL_SIZE(a) ( (sizeof(a)) / (sizeof(a[0])) )
-
 
 int main()
 {
     int i, ilen;
-    BSTree<int>* tree = new BSTree<int>();
+    SplayTree<int>* tree = new SplayTree<int>();
 
     cout << "== 依次添加: ";
     ilen = TBL_SIZE(arr);
@@ -39,12 +40,11 @@ int main()
     cout << "== 树的详细信息: " << endl;
     tree->print();
 
-    cout << "\n== 删除根节点: " << arr[3];
-    tree->remove(arr[3]);
-
-    cout << "\n== 中序遍历: ";
-    tree->inOrder();
-    cout << endl;
+    i = 30;
+    cout << "\n== 旋转节点(" << i << ")为根节点";
+    tree->splay(i);
+    cout << "\n== 树的详细信息: " << endl;
+    tree->print();
 
     // 销毁二叉树
     tree->destroy();
