@@ -3,39 +3,39 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31829.152
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinarySearch", "..\BinarySearch\BinarySearch.vcxproj", "{62D4AF8B-18CF-4259-BB42-4478E1640937}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二分查找", "..\BinarySearch\BinarySearch.vcxproj", "{62D4AF8B-18CF-4259-BB42-4478E1640937}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bubble_Sort", "..\Bubble_Sort\Bubble_Sort.vcxproj", "{0FD4D384-15C7-4B68-ACF9-CDB067D5905C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "冒泡排序", "..\Bubble_Sort\Bubble_Sort.vcxproj", "{0FD4D384-15C7-4B68-ACF9-CDB067D5905C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "caculator", "..\caculator\caculator\caculator.vcxproj", "{4F20CDDA-98BC-42FB-B087-8334C2563E24}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "类计算器", "..\caculator\caculator\caculator.vcxproj", "{4F20CDDA-98BC-42FB-B087-8334C2563E24}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Convert", "..\Convert\Convert.vcxproj", "{980C2A6D-7D03-4FCA-999B-2B0C7D9E310D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "十进制转换任意进制", "..\Convert\Convert.vcxproj", "{980C2A6D-7D03-4FCA-999B-2B0C7D9E310D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fibonacci", "..\Fibonacci\Fibonacci.vcxproj", "{53B3DC1A-0A6A-4950-BF1E-A0C1BB4E5FBD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "斐波那契数列", "..\Fibonacci\Fibonacci.vcxproj", "{53B3DC1A-0A6A-4950-BF1E-A0C1BB4E5FBD}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fibonacci_Search", "..\Fibonacci_Search\Fibonacci_Search.vcxproj", "{7F7D6EC6-F98D-4C6B-9845-E94E8C4935A2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "斐波那契搜索", "..\Fibonacci_Search\Fibonacci_Search.vcxproj", "{7F7D6EC6-F98D-4C6B-9845-E94E8C4935A2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Insert_Sort", "..\Insert_Sort\Insert_Sort.vcxproj", "{C1A5657B-1114-4D57-AF32-8B122F65149A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "插入排序", "..\Insert_Sort\Insert_Sort.vcxproj", "{C1A5657B-1114-4D57-AF32-8B122F65149A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InsertSearch", "..\InsertSearch\InsertSearch.vcxproj", "{88BD1943-061B-4361-8961-21A9C9C299F2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "插入查找", "..\InsertSearch\InsertSearch.vcxproj", "{88BD1943-061B-4361-8961-21A9C9C299F2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinkNode", "..\LinkNode\LinkNode.vcxproj", "{5E2BE13A-3887-4A75-AC1D-50263C998516}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "链表", "..\LinkNode\LinkNode.vcxproj", "{5E2BE13A-3887-4A75-AC1D-50263C998516}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MergeSort", "..\MergeSort\MergeSort.vcxproj", "{65CF8C59-4E5A-4A87-A5AE-DBE2B4E7752B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "归并排序", "..\MergeSort\MergeSort.vcxproj", "{65CF8C59-4E5A-4A87-A5AE-DBE2B4E7752B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Queue", "..\Queue\Queue.vcxproj", "{8FC37C78-8745-4ACC-A7F9-47E0B3083951}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "队列", "..\Queue\Queue.vcxproj", "{8FC37C78-8745-4ACC-A7F9-47E0B3083951}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Strcpy", "..\Strcpy\Strcpy.vcxproj", "{B7713DA9-2126-4BCE-9C1A-6A242C4CDA93}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stack_Shuffling", "..\Stack_Shuffling\Stack_Shuffling.vcxproj", "{DF021894-8A31-4677-8649-3AC74D03CC73}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "出栈序列", "..\Stack_Shuffling\Stack_Shuffling.vcxproj", "{DF021894-8A31-4677-8649-3AC74D03CC73}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stack", "..\stack\stack.vcxproj", "{BCC84775-FDC9-48FE-84F5-FDD051E7058C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "栈", "..\stack\stack.vcxproj", "{BCC84775-FDC9-48FE-84F5-FDD051E7058C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SequenceSearch", "..\SequenceSearch\SequenceSearch.vcxproj", "{C390EBBF-BECE-4D1E-ADB2-D6306C29D13D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "顺序查找", "..\SequenceSearch\SequenceSearch.vcxproj", "{C390EBBF-BECE-4D1E-ADB2-D6306C29D13D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Selection_Sort", "..\Selection_Sort\Selection_Sort.vcxproj", "{C57543A2-B4D6-4A56-B72D-07D06A2EDF0D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "选择排序", "..\Selection_Sort\Selection_Sort.vcxproj", "{C57543A2-B4D6-4A56-B72D-07D06A2EDF0D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reverse_Polish_Notation", "..\Reverse_Polish_Notation\Reverse_Polish_Notation.vcxproj", "{292A1648-9968-4E67-A95E-DF2BDDEC30A8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "后缀计算Reverse_Polish_Notation", "..\Reverse_Polish_Notation\Reverse_Polish_Notation.vcxproj", "{292A1648-9968-4E67-A95E-DF2BDDEC30A8}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "链式队列", "链式队列\链式队列.vcxproj", "{634B2649-256C-49B1-90D5-5D4ECB257735}"
 EndProject
@@ -44,6 +44,16 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉搜索树", "二叉搜索树\二叉搜索树.vcxproj", "{D2A1ED90-41AF-44CB-99F3-29C8BBB862A0}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "平衡二叉树", "平衡二叉树\平衡二叉树.vcxproj", "{5201FF93-D8C8-419A-9165-20EE110BE3F6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "哈夫曼树", "哈夫曼树\哈夫曼树.vcxproj", "{848375DB-6998-42F5-BCFE-E74DADD0CCF0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "无向图-邻接多重表", "无向图-邻接多重表\无向图-邻接多重表.vcxproj", "{7ABA5F12-5926-440F-AD67-EF4F14044CFF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "无向图-邻接表", "无向图-邻接表\无向图-邻接表.vcxproj", "{3D943575-D00D-4CE2-B0FF-6A4F440954F7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "有向图-十字链表", "有向图-十字链表\有向图-十字链表.vcxproj", "{BB0F40E4-E092-48B3-94E8-B45E9CE8C8CC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "有向图-邻接矩阵", "有向图-邻接矩阵\有向图-邻接矩阵.vcxproj", "{9EC08C3C-D0F5-4663-8F63-A9EA4ED9AE12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -221,6 +231,46 @@ Global
 		{5201FF93-D8C8-419A-9165-20EE110BE3F6}.Release|x64.Build.0 = Release|x64
 		{5201FF93-D8C8-419A-9165-20EE110BE3F6}.Release|x86.ActiveCfg = Release|Win32
 		{5201FF93-D8C8-419A-9165-20EE110BE3F6}.Release|x86.Build.0 = Release|Win32
+		{848375DB-6998-42F5-BCFE-E74DADD0CCF0}.Debug|x64.ActiveCfg = Debug|x64
+		{848375DB-6998-42F5-BCFE-E74DADD0CCF0}.Debug|x64.Build.0 = Debug|x64
+		{848375DB-6998-42F5-BCFE-E74DADD0CCF0}.Debug|x86.ActiveCfg = Debug|Win32
+		{848375DB-6998-42F5-BCFE-E74DADD0CCF0}.Debug|x86.Build.0 = Debug|Win32
+		{848375DB-6998-42F5-BCFE-E74DADD0CCF0}.Release|x64.ActiveCfg = Release|x64
+		{848375DB-6998-42F5-BCFE-E74DADD0CCF0}.Release|x64.Build.0 = Release|x64
+		{848375DB-6998-42F5-BCFE-E74DADD0CCF0}.Release|x86.ActiveCfg = Release|Win32
+		{848375DB-6998-42F5-BCFE-E74DADD0CCF0}.Release|x86.Build.0 = Release|Win32
+		{7ABA5F12-5926-440F-AD67-EF4F14044CFF}.Debug|x64.ActiveCfg = Debug|x64
+		{7ABA5F12-5926-440F-AD67-EF4F14044CFF}.Debug|x64.Build.0 = Debug|x64
+		{7ABA5F12-5926-440F-AD67-EF4F14044CFF}.Debug|x86.ActiveCfg = Debug|Win32
+		{7ABA5F12-5926-440F-AD67-EF4F14044CFF}.Debug|x86.Build.0 = Debug|Win32
+		{7ABA5F12-5926-440F-AD67-EF4F14044CFF}.Release|x64.ActiveCfg = Release|x64
+		{7ABA5F12-5926-440F-AD67-EF4F14044CFF}.Release|x64.Build.0 = Release|x64
+		{7ABA5F12-5926-440F-AD67-EF4F14044CFF}.Release|x86.ActiveCfg = Release|Win32
+		{7ABA5F12-5926-440F-AD67-EF4F14044CFF}.Release|x86.Build.0 = Release|Win32
+		{3D943575-D00D-4CE2-B0FF-6A4F440954F7}.Debug|x64.ActiveCfg = Debug|x64
+		{3D943575-D00D-4CE2-B0FF-6A4F440954F7}.Debug|x64.Build.0 = Debug|x64
+		{3D943575-D00D-4CE2-B0FF-6A4F440954F7}.Debug|x86.ActiveCfg = Debug|Win32
+		{3D943575-D00D-4CE2-B0FF-6A4F440954F7}.Debug|x86.Build.0 = Debug|Win32
+		{3D943575-D00D-4CE2-B0FF-6A4F440954F7}.Release|x64.ActiveCfg = Release|x64
+		{3D943575-D00D-4CE2-B0FF-6A4F440954F7}.Release|x64.Build.0 = Release|x64
+		{3D943575-D00D-4CE2-B0FF-6A4F440954F7}.Release|x86.ActiveCfg = Release|Win32
+		{3D943575-D00D-4CE2-B0FF-6A4F440954F7}.Release|x86.Build.0 = Release|Win32
+		{BB0F40E4-E092-48B3-94E8-B45E9CE8C8CC}.Debug|x64.ActiveCfg = Debug|x64
+		{BB0F40E4-E092-48B3-94E8-B45E9CE8C8CC}.Debug|x64.Build.0 = Debug|x64
+		{BB0F40E4-E092-48B3-94E8-B45E9CE8C8CC}.Debug|x86.ActiveCfg = Debug|Win32
+		{BB0F40E4-E092-48B3-94E8-B45E9CE8C8CC}.Debug|x86.Build.0 = Debug|Win32
+		{BB0F40E4-E092-48B3-94E8-B45E9CE8C8CC}.Release|x64.ActiveCfg = Release|x64
+		{BB0F40E4-E092-48B3-94E8-B45E9CE8C8CC}.Release|x64.Build.0 = Release|x64
+		{BB0F40E4-E092-48B3-94E8-B45E9CE8C8CC}.Release|x86.ActiveCfg = Release|Win32
+		{BB0F40E4-E092-48B3-94E8-B45E9CE8C8CC}.Release|x86.Build.0 = Release|Win32
+		{9EC08C3C-D0F5-4663-8F63-A9EA4ED9AE12}.Debug|x64.ActiveCfg = Debug|x64
+		{9EC08C3C-D0F5-4663-8F63-A9EA4ED9AE12}.Debug|x64.Build.0 = Debug|x64
+		{9EC08C3C-D0F5-4663-8F63-A9EA4ED9AE12}.Debug|x86.ActiveCfg = Debug|Win32
+		{9EC08C3C-D0F5-4663-8F63-A9EA4ED9AE12}.Debug|x86.Build.0 = Debug|Win32
+		{9EC08C3C-D0F5-4663-8F63-A9EA4ED9AE12}.Release|x64.ActiveCfg = Release|x64
+		{9EC08C3C-D0F5-4663-8F63-A9EA4ED9AE12}.Release|x64.Build.0 = Release|x64
+		{9EC08C3C-D0F5-4663-8F63-A9EA4ED9AE12}.Release|x86.ActiveCfg = Release|Win32
+		{9EC08C3C-D0F5-4663-8F63-A9EA4ED9AE12}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
